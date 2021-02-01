@@ -1,0 +1,55 @@
+
+
+
+.header{
+    display: inline-block;
+    position: relative;
+    
+}
+
+
+
+
+
+.header::after{
+    content: "";
+    background-color: grey;
+    width: 100px ;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+
+   
+
+    
+}
+
+.header:before{
+    content: "";
+    background-color: green;
+    width: 30px;
+    height: 4px;
+    left: 130px;
+    top: 88%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.text{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px ;
+    margin-bottom: 50px;
+}
+
+
+.photos{
+    /* box-sizing: border-box;
+    height: 100%; */
+    border: solid green;
+    border-radius: 50%;
+        
+}
+
